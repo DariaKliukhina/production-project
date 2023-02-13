@@ -10,6 +10,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "lib": ["es5", "es6", "DOM"]
   },
   "ts-node": {
